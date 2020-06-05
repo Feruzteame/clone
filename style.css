@@ -1,0 +1,364 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+section{
+    display:flex;
+    flex-direction: column;
+}
+.container{
+    margin: auto;
+    max-width: 850px;
+}
+#pictureTwo, #pictureThree, #pictureFour, #pictureFive{
+    padding-top: 70px;
+}
+
+/* part one */
+#partOne{
+    width: 100%;
+    height: 1500px;
+    background-color: black;
+    color:white;
+}
+#navBar{height:50px;
+        width: 100%;}
+#mainHead{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    
+   }
+#mainHead #logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 90%;
+    margin-right: 10px;
+}
+#mainHead p {
+    font-size: 25px;
+}
+form{ display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    }
+form #searchArea{ 
+    width: 500px;
+    height: 40px;
+    background-color: lightslategray;
+    border: none;
+    margin-right: 0px;
+    margin-bottom: 100px;
+}
+form input[placeholder]{
+     font-size: 20px;
+     padding-left: 20px;
+}
+#submit_button{
+    height: 42px;
+    width: 50px;
+    font-size:10px;
+    background-color: lightslategray;
+    border: none;
+    margin-bottom: 10px;
+    border-left: none;
+}
+#submit_button:hover{
+    background-color: lightgray;
+}
+.descriptionOne{
+    float:left;
+}
+.description p{
+    line-height: 40px;
+}
+.descriptionOne #linkOne{
+    height: 50px;
+    width: 300px;
+    border-radius: 7px;
+    background-color: rgb(63, 136, 182);
+    color: white;
+    font-size: 17px;
+}
+#icon{
+    font-size: 15px;
+}
+#imageOne{
+    width:1000px;
+    float: right;
+    margin-top: -200px;
+   margin-right: 100px;
+}
+.boxes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.boxes #boxOne{
+  background-color: #282828;
+  width: 300px;
+  text-align: center;
+  height: 300px;
+  font-size: 18px;
+  margin: 30px;
+  margin-top: 300px; 
+  border-radius: 10px; 
+  z-index: 1;
+  }
+  .boxes #boxOne p{
+      margin-top: -45px;
+  }
+.boxes #boxTwo{
+    background-color: #282828;
+    width: 300px;
+    text-align: center;
+    height: 300px;
+    font-size: 18px;
+    margin: 30px;
+    margin-top: 300px;
+    border-radius: 10px; 
+    z-index: 1;
+}
+.boxes #boxThree{
+    background-color: #282828;
+    width: 300px;
+    text-align: center;
+    height: 300px;
+    font-size: 18px;
+    margin: 30px;
+    margin-top: 300px;
+    border-radius: 10px; 
+    z-index: 1;
+     }
+#boxOne, #boxTwo, #boxThree, p{
+                               padding: 20px;
+                               }
+
+/*part two */
+#partTwo{
+    width: 100%;
+    height: 1150px;
+    background-color: lightgreen;
+    color:white;
+}
+#partTwo h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 300px;
+    margin-bottom: 50px;
+}
+#partTwo p {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#partTwo #generalTwo{
+    margin-left: 200px;
+    background-color: dimgrey;
+    color: white;
+    height: 45px;
+    width: 400px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#partTwo #generalTwo:hover{
+    background-color: lightslategrey;
+}
+
+/* part three */
+#partThree{
+    width: 100%;
+    height: 920px;
+    background-color: orange;
+    color:white;
+    
+}
+#partThree h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+}
+#partThree p {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#partThree #generalThree{
+    margin-left: 200px;
+    background-color: dimgrey;
+    color: white;
+    height: 45px;
+    width: 400px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#partThree #generalThree:hover{
+    background-color: lightslategray;
+}
+#partThree #pictureThree {
+    width: 800px;
+}
+
+
+/* part four*/
+#partFour{
+    width: 100%;
+    height: 890px;
+    background-color: purple;
+    color:white;
+    }
+#partFour h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+#partFour p {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#partFour #generalFour{
+    margin-left: 200px;
+    background-color: rgb(123, 132, 172);
+    color: white;
+    height: 45px;
+    width: 400px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#partFour #generalFour:hover{
+    background-color: rgb(39, 48, 66);
+}
+#partFour #pictureFour{
+    width: 800px;
+}
+
+
+/* part five */
+#partFive{
+    width: 100%;
+    height: 860px;
+    background-color: lightblue;
+    color:white;
+}
+#partFive h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    color: rgb(62, 69, 87);
+}
+#partFive p {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: rgb(62, 69, 87);
+   }
+#partFive #generalFive{
+    margin-left: 200px;
+    background-color: rgb(62, 69, 87);
+    color: white;
+    height: 45px;
+    width: 400px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#partFive #generalFive:hover{
+    background-color: rgb(78, 88, 119);
+}
+#partFive #pictureFive{
+    width: 800px;
+}
+#linkTwo{
+    float: right;
+    padding: 20px;
+}
+#linkTwo a{
+    text-decoration: none;
+    color: black;
+}
+
+/* media quire */
+@media (max-width: 750px){
+
+         #mainHead #logo{
+               margin-top: 20px;
+               }
+        form{
+            width: 90%;
+            margin-left: 15px;
+            }
+        section .descriptionOne{
+                        float: none;
+                        text-align: center;
+                        margin-top: -5%;
+                        }
+        #partOne #imageOne{
+                   width: 400px;
+                   height: 200px;
+                   margin-right: 10%;
+                   margin-top: 5%;
+                   }
+        #partOne{
+         height: 2200px;
+               }
+        .boxes{
+         flex-direction: column;
+         justify-content: center;
+            }
+        .boxes #boxOne{
+              margin-top:  20px;
+             }
+        .boxes #boxTwo{
+              margin-top:  20px;
+              }
+        .boxes #boxThree{
+                 margin-top:  20px;
+                 }
+        #partFive #generalFive, #partFour #generalFour, #partThree #generalThree, #partTwo #generalTwo{
+                 margin-left: 10%;
+                 padding: 10px;
+                 width: 400px;
+                    }
+        #partTwo h1{
+            margin-top: -45%;
+           }
+        #partTwo{
+             height: 950px;
+           }
+        section #partTwo #pictureTwo{
+                        width: 700px;
+                          height: 300px;
+                          margin-left: -10%;
+                          }
+        #partThree{
+             height: 850px;
+              }
+        section #partThree #pictureThree{
+               width: 700px;
+               height: 200px;
+               margin-left: -30%;
+                   }
+        section #partFour #pictureFour{
+                    width: 700px;
+                    height: 200px;
+                    margin-left: -30%;
+                     }
+        section #partFive #pictureFive{
+                    width: 700px;
+                    height: 200px;
+                    margin-left: -20%;
+                    }
+        #partFive #linkTwo{
+                    float:none;
+                    text-align: center;
+                       }
+                                  
+                    }
